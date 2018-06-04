@@ -9,44 +9,63 @@
         <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/normalize.css">
+        <style>
+            header {
+               background-image: url("img/cat-cover-laptop.jpg");
+               background-size: cover;
+            }
+        </style>
     </head>
     <body>
         <header>
             <p><span>Rose Sore</span> | Web Developer <br><br>the right cat to <span>&lt;code/> </span>your website</p>
             <nav>
-                    <ul> 
+                 <ul> 
                         <li><a href="#contact">contact</a></li>
                         <li><a href="#skills">skills</a></li>
                         <li><a href="#about">about</a></li>
                         <li><a href="#portfolio">portfolio</a></li>
-                    </ul>
-            </nav>
-            <style>
-                    header {
-                       background-image: url("img/cat-cover-laptop.jpg");
-                    }
-            </style>
+                </ul>
+                </nav>
+                   
         </header>
-            <section id="portfolio">
-              <h2>My Portfolio</h2>  
-              <h3>Rogue Pickings Website</h3>
-              <a href="https://shyhaf.github.io/Rogue-Pickings/"><img class="rogue-pickings" src="img/Rogue-Pickings.png" alt="Rogue Pickings Website pic" width="800"/></a>
-              <p>I recreated a photoshop design comp into the beautiful web page you see now. This project relied solely on HTML5 and CSS.</p>
-              <h3>Jubilee Austen Project</h3> 
-              <a href="http://saficode.com/"><img class="jubilee" src="img/Jubilee.png" alt="Jubilee Website pic" width="800"/></a>
-              <p>This was my first effort at creating a web page and coming to grips with HTML5 & CSS. I have long since become proficient in both HTML & CSS</p>
-            </section>
-            <section id="about">
-                <h2>About Me</h2>
-                <p>Hi there! I’m Rose, a web developer, code enthusiast, and a lover of good jokes. Also, I’m a cat. Nine lives and counting. :)</p>
-                <img class="cat" src="img/cat-pic.jpg" alt="cat pic" width="800"/>
-                <p class="paragraph2">Nine lives is a long time so I’ve been lucky enough to live in four different countries, and travel across four continents. I’m a patchwork of the best parts of many cultures, or at least I like to think so. What I love the most about my background is how easy it's made it for me to relate to people from all over the world. Makes it that much easier for me to catch your vision, put my paws to work and turn your dream into a killer website.</p>             
-            </section>
-            <section id="skills">
+        <section id="portfolio">
+            <div class="full-width">
+                    <h2>My Portfolio</h2>
+                <div class="two-thirds-width">
+                        <h3>Rogue Pickings Website</h3>
+                        <a href="https://shyhaf.github.io/Rogue-Pickings/"><img class="rogue-pickings" src="img/Rogue-Pickings.png" alt="Rogue Pickings Website pic" width="700"/></a>
+                </div>
+                <div class="one-third-width">
+                        <p>I recreated a photoshop design comp into the beautiful web page you see now. This project relied solely on HTML5 and CSS.</p>
+                </div>
+                <div class="two-thirds-width">
+                        <h3>Jubilee Austen Project</h3> 
+                        <a href="http://saficode.com/"><img class="jubilee" src="img/Jubilee.png" alt="Jubilee Website pic" width="700"/></a>
+                </div>
+                <div class="one-third-width">        
+                        <p>This was my first effort at creating a web page and coming to grips with HTML5 & CSS. I have long since become proficient in both HTML & CSS</p>
+                </div> 
+            </div>    
+        </section>
+        <section id="about">
+            <div class="full-width">
+                    <h2>About Me</h2>
+                <div class="two-thirds-width">
+                        <p>Hi there! I’m Rose, a web developer, code enthusiast, and a lover of good jokes.<br> Also, I’m a cat. Nine lives and counting. :)</p>
+                    <img class="cat" src="img/cat-pic.jpg" alt="cat pic" width="700"/> 
+                </div>
+                <div class="one-third-width">
+                        <p class="about-me-paragraph">Nine lives is a long time so I’ve been lucky enough to live in four different countries, and travel across four continents. I’m a patchwork of the best parts of many cultures, or at least I like to think so. What I love the most about my background is how easy it's made it for me to relate to people from all over the world. Makes it that much easier for me to catch your vision, put my paws to work and turn your dream into a killer website.</p>             
+                </div>    
+            </div>
+        </section>
+        <section id="skills">
+            <div class="full-width">
                 <h2>Skills</h2>
                 <p>I have a bachelor’s degree in Communication, a master’s degree in International Management, and many years of experience as a manager. This means that when you hire me, you don’t just get an awesome cat that codes pretty well but one who can help you shape your content, understands business strategy, has a strong work ethic, and all these great skills:</p>
                     <ul>
-                        <li>HTML5 & CSS Ninja</li>
+                        <li>HTML5 &amp; CSS Ninja</li>
                         <li>Web Development</li>
                         <li>Content Creation</li>
                         <li>Web Design</li>
@@ -57,19 +76,23 @@
                 <img class="content-creation" src="img/content.png" alt="content creation icon"/>
                 <img class="web-design" src="img/website-design-symbol.png" alt="web design icon"/>
                 <img class="megaphone" src="img/megaphone.png" alt="megaphone icon"/>
-            </section>
-            <footer id="contact">
+            </div>
+        </section>
+        <footer id="contact">
+            <div class="full-width">
                 <h2>Let's Chat</h2>
-                <div class="part-one">
-                    <h3>ask me to code your website</h3>
-                    <p>email: rosesore@gmail.com</p>
-                </div>
-                <div class="part-two">
-                    <h3>follow me</h3>
-                    <a href="https://github.com/Shyhaf"><img src="img/github.png" alt="github icon"/></a>
-                    <a href="https://www.linkedin.com/in/rosesore/"><img src="img/linkedin.png" alt="linkedin icon"/></a>
-                </div>
+                    <div class="part-one">
+                        <h3>ask me to code your website</h3>
+                        <p>email: rosesore@gmail.com</p>
+                    </div>
+                    <div class="part-two">
+                        <h3>follow me</h3>
+                            <a href="https://github.com/Shyhaf"><img src="img/github.png" alt="github icon"/></a>
+                            <a href="https://www.linkedin.com/in/rosesore/"><img src="img/linkedin.png" alt="linkedin icon"/></a>
+                    </div>
                 <p>Copyright 2018 | Rose Sore<p>
-            </footer> 
+            </div>
+        </footer> 
     </body>
 </html>
+    

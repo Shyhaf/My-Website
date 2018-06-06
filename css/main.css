@@ -23,13 +23,15 @@
 header {
     font-family: 'Rubik', sans-serif;
     font-size: 30px;
-    margin: 0px 0px;
-    height: auto;
+    margin: 0px auto;
+    height: 750px;
+    background-image: url('../img/cat-cover-laptop.jpg');
+    background-size: cover;
 }
 
 header nav ul li {
     display: inline;
-    padding: 0px 35px;
+    padding: 500px 35px 20px 35px;
     float: right;    
 }
 

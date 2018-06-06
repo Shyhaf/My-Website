@@ -1,32 +1,35 @@
+/***div class definitions***/
+
 .full-width {
-    width:1240px;
-    float: left;
+    width:1200px;
     padding: 0px 50px 50px 50px;
-    margin: 0px 0px 0px -8px;
+    margin: 0px auto;
+    overflow: auto;
 }
 
 .two-thirds-width {
-    width:700px;
+    width:600px;
     float: left;
-    padding: 0px 50px;
+    padding: 0px 10px 0px 50px;
 }
 
 .one-third-width {
-    width: 400px;
+    width: 450px;
     float: left;
 }
 
+/***header****/
 
 header {
     font-family: 'Rubik', sans-serif;
     font-size: 30px;
     margin: 0px 0px;
-    height: 650px;
+    height: auto;
 }
 
 header nav ul li {
     display: inline;
-    padding: 300px 35px 45px 35px;
+    padding: 0px 35px;
     float: right;    
 }
 
@@ -37,11 +40,14 @@ header nav ul li a {
 
 header p {
     padding: 50px 0px 50px 50px;
+    float: left;
 }
 
 header p span {
     color: rgb(8, 86, 141);
 }
+
+/***headings****/
 
 h2 {
     font-family: 'Quicksand', sans-serif;
@@ -56,6 +62,8 @@ h3 {
     color:whitesmoke;
 }
 
+/***portfolio section***/
+
 #portfolio {
     clear: both;
 }
@@ -64,11 +72,11 @@ h3 {
     padding: 0px 50px 10px 0px;
 }
 
-#portfolio .full-width, #skills .full-width {
+#portfolio, #skills {
     background: #0678ca;
 }
 
-#about .full-width, #contact .full-width {
+#about, #contact {
     background:  rgb(8, 86, 141);
 }
 
@@ -84,14 +92,20 @@ h3 {
     color: whitesmoke;
 }
 
+/***skills***/
+
 #skills ul li {
     display: inline;
     padding: 0px 40px;
 }
 
+/***images***/
+
 .rogue-pickings, .jubilee, .cat{
     border: 4px solid black;    
 }
+
+/***icons****/
 
 .html5{
     padding: 0px 120px;
@@ -109,6 +123,8 @@ h3 {
     padding: 0px 60px;
 }
 
+/***footer***/
+
 footer p {
     text-align: center;
     color: whitesmoke;
@@ -116,7 +132,6 @@ footer p {
     font-size: 14px;
     font-weight: 700;
     clear: both;
-    padding: 40px 0px 0px 0px;
 }
 
 footer .part-one p {
@@ -124,7 +139,6 @@ footer .part-one p {
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     color: whitesmoke;
-    padding: 0px 0px;
 }
 
 footer .part-one {
